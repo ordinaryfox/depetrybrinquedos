@@ -1,0 +1,32 @@
+.logo{width: 100px ;
+height: 80px;}
+
+.img-logo{position: absolute;;
+z-index: -2;
+left: 25%;
+opacity: 0.5;
+filter: alpha(opacity=50);}
+
+.head-align{text-align: center;}
+
+h1{text-align: center;}
+
+h5{text-align: justify;
+margin: 0 200px;}
+
+.float{float: left !important;
+text-align: center;
+}
+.center{margin: 50px 240px;}
+
+.menu-icon{float: right;
+margin: 2px;}
+
+.nav-galeria{background-color: lightgoldenrodyellow !important;}
+.nav-quem{background-color: rgb(247, 238, 243) !important;}
+.nav-home{background-color: rgb(222, 240, 252) !important;}
+
+.clear{clear: both;}
+
+.footer{text-align: center;
+font-size: 10px;}

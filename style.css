@@ -10,12 +10,12 @@ filter: alpha(opacity=50);}
 .head-align{text-align: center;}
 
 h1{text-align: center;
-margin: 50px 50px;
+margin: 50px;
 background-color:#FFFC0A;
 opacity: 0.8;
 border-radius: 15px;
 font-family:  'Righteous', cursive;
-font-size: 80px;
+
 }
 
 

@@ -2,31 +2,51 @@
 height: 80px;}
 
 .img-logo{position: absolute;;
-z-index: -2;
+z-index: -3;
 left: 25%;
-opacity: 0.5;
+opacity: 0.7;
 filter: alpha(opacity=50);}
 
 .head-align{text-align: center;}
 
-h1{text-align: center;}
+h1{text-align: center;
+margin: 50px 50px;
+background-color:#FFFC0A;
+opacity: 0.8;
+border-radius: 15px;
+font-family:  'Righteous', cursive;
+font-size: 80px;
+}
+
 
 h5{text-align: justify;
-margin: 0 200px;}
+margin: 0 200px;
+}
 
 .float{float: left !important;
-text-align: center;
+text-align: justify;
 }
-.center{margin: 50px 240px;}
+.center{
+background-color: #FFFC0A;
+border-radius: 15px;
+opacity: 0.8;}
 
 .menu-icon{float: right;
 margin: 2px;}
 
-.nav-galeria{background-color: lightgoldenrodyellow !important;}
-.nav-quem{background-color: rgb(247, 238, 243) !important;}
-.nav-home{background-color: rgb(222, 240, 252) !important;}
+.card{border-radius: 15px !important;}
+
+.card-img-top{
+    border-radius: 15px 15px 0 0 !important;}
+
+.nav-galeria{background-color:#FFFC0A!important;}
+.nav-quem{background-color:#FFFC0A !important;}
+.nav-home{background-color: #FFFC0A !important;}
 
 .clear{clear: both;}
 
 .footer{text-align: center;
 font-size: 10px;}
+
+body{background-color:}
+

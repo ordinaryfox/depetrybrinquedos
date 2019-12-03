@@ -9,25 +9,20 @@ filter: alpha(opacity=50);}
 
 .head-align{text-align: center;}
 
-h1{text-align: center;
-margin: 50px;
-background-color:#FFFC0A;
-opacity: 0.8;
-border-radius: 15px;
+h1{background-color: #1686CC !important;
 font-family:  'Righteous', cursive;
 
 }
 
 
-h5{text-align: justify;
-margin: 0 200px;
-}
+h5{text-align: justify;}
 
 .float{float: left !important;
 text-align: justify;
 }
-.center{
-background-color: #FFFC0A;
+.center{text-align: center;
+margin-top: 50px;        
+background-color: #FF0303;
 border-radius: 15px;
 opacity: 0.8;}
 

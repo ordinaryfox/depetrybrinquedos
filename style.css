@@ -37,6 +37,9 @@ width: 100%;
 color: #1686CC;
 margin-top: 10px;
 }
+
+.home{color: black !important;}
+
 .home:hover{color: #1686CC !important;
 text-decoration: underline;
 }
@@ -44,7 +47,7 @@ text-decoration: underline;
 .active{color: #FF0303 !important;}
 
 .nav-item{font-family: 'Righteous', cursive;
-font-size: 20px;
+font-size: 25px;
 }
 
 

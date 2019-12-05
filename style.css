@@ -1,7 +1,7 @@
 .logo{width: 100px ;
 height: 80px;}
 
-.img-logo{position: absolute;;
+.img-logo{position: absolute;
 z-index: -3;
 left: 25%;
 opacity: 0.7;
@@ -9,9 +9,11 @@ filter: alpha(opacity=50);}
 
 h1{background-color: #FF0303 !important;
 font-family: 'Righteous', cursive;
+color: black;
 }
 
-h5{text-align: justify;}
+h5{text-align: justify;
+color: black;}
 
 .text-c{
 margin-top: 50px;        
@@ -35,7 +37,7 @@ width: 100%;
 
 .social{font-size: 30px;
 color: #1686CC;
-margin-top: 10px;
+margin: 8px 5px 0px 5px ;
 }
 
 .home{color: black !important;}
@@ -49,6 +51,7 @@ text-decoration: underline;
 .nav-item{font-family: 'Righteous', cursive;
 font-size: 25px;
 }
+
 
 
 

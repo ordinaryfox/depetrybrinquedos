@@ -53,10 +53,10 @@ font-size: 25px;
 }
 
 @media only screen and (max-width: 600px) and (min-width:320px){
-    .footer{font-size: 5px;
+    .footer{font-size: 3px;
         height: 30px !important;}
-    .social{font-size: 20px;
-    margin: 4px 2px 0 2px;}
+    .social{font-size: 25px;
+    margin:0;}
   }
 
 

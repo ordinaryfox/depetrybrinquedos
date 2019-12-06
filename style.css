@@ -12,7 +12,7 @@ font-family: 'Righteous', cursive;
 color: black;
 }
 
-h5{text-align: justify;
+.texto{text-align: justify;
 color: black;}
 
 .text-c{
@@ -25,7 +25,7 @@ opacity: 0.85;}
 }
 
 .card-img-top{
-border-radius: 15px 15px 0 0 !important;}
+border-radius: 12px 12px 0 0 !important;}
 
 .nav-c{background-color:#FFFC0A!important;}
 
@@ -45,6 +45,7 @@ margin: 8px 5px 0px 5px ;
         height: 30px !important;}
     .social{font-size: 25px;
     margin:0 5px;}
+    .portfolio-warp{}
   }
 
 .home{color: black !important;}
@@ -60,8 +61,11 @@ font-size: 25px;
 }
 
 .like{color: #FF0303;
-font-family: 'Righteous', cursive;}
+font-family: 'Righteous', cursive;
+}
 
+.contato{border:#1686CC solid;
+}
 
 
 

@@ -51,8 +51,12 @@ text-decoration: underline;
 .nav-item{font-family: 'Righteous', cursive;
 font-size: 25px;
 }
-.space{height: 50px;}
 
+@media only screen and (max-width: 600px) {
+    .footer{font-size: 5px;
+        height: 30px !important;}
+    .social{font-size: 10px;}
+  }
 
 
 

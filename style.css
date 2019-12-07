@@ -45,14 +45,14 @@ margin: 8px 5px 0px 5px ;
         height: 30px !important;}
     .social{font-size: 25px;
     margin:0 5px;}
-    .w-50{width: 100% !important}
+    .w-50{width: 100% !important;
+    margin: 5px !important;}
     .img-logo{left:0;}
   }
 
 .home{color: black !important;}
 
 .home:hover{color: #1686CC !important;
-text-decoration: underline;
 }
 
 .active{color: #FF0303 !important;}

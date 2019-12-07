@@ -45,7 +45,7 @@ margin: 8px 5px 0px 5px ;
         height: 30px !important;}
     .social{font-size: 25px;
     margin:0 5px;}
-    .portfolio-warp{width: 100%}
+    .w-50{width: 100% !important}
   }
 
 .home{color: black !important;}

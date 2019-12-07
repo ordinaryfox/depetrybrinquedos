@@ -46,7 +46,8 @@ margin: 8px 5px 0px 5px ;
     .social{font-size: 25px;
     margin:0 5px;}
     .w-50{width: 100% !important;
-    margin: 10px 0 !important;}
+    margin: 10px 0 !important;
+  height: 100% !important;}
     .img-logo{left:0;}
   }
 

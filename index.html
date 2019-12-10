@@ -53,13 +53,51 @@
   <img src="img/logo2.png" class="img-fluid rounded mx-auto d-block w-50 img-logo center"
     alt="Logo De Pétry Brinquedos">
 
+    <div class="m-5"></div>
+      <div class="container">
+      <div id="bs4-vertical-slide-carousel" class="carousel bs-vertical-slider slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+          <li data-target="#bs4-vertical-slide-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#bs4-vertical-slide-carousel" data-slide-to="1"></li>
+          <li data-target="#bs4-vertical-slide-carousel" data-slide-to="2"></li>
+          <li data-target="#bs4-vertical-slide-carousel" data-slide-to="3"></li>
+      </ol>
+      
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img class="d-block mx-auto img-fluid" src="img/cama.jpg" alt="Cama Elástica">
+          </div>
+          <div class="carousel-item">
+              <img class="d-block mx-auto img-fluid" src="img/inflavel.jpg" alt="Inflável">
+          </div>
+          <div class="carousel-item">
+              <img class="d-block mx-auto img-fluid" src="img/algodao.jpg" alt="Máquina de Algodão Doce">
+          </div>
+          <div class="carousel-item">
+              <img class="d-block mx-auto img-fluid" src="img/piscina.jpg" alt="Combo Piscina de Bolinhas & Cama Elástica">
+                <!--Captions for the slides go here -->
+  
+                  <div class="carousel-caption  d-none d-sm-block text-center">
+                  <h5>De Pétry Brinquedos</h5>
+                  <p class="text-light name">Conheça nossos Pula-pula infláveis e outros brinquedos e serviços!
+                  <a href="galeria.html"><button class="btn btn-outline-info btn-lg">Galeria</button></a>
+                  </p>
+                  </div>
+                <!--Captions ending here for slide 3-->              
+          </div>
+         </div>
+      </div>
+      </div>
+      </div>
+
   <div class="container">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
       <div class="col">
         <div class="card nav-c contato" style="margin: 50px auto !important; width: 15rem;">
           <img src="img/cama.jpg" class="card-img-top" alt="Cama Elástica">
           <div class="card-body">
-            <p class="card-text h6">A <span class="name">De Pétry</span> trabalha com diversos modelos de cama elástica para
+            <p class="card-text h6">A <span class="name">De Pétry</span> trabalha com diversos modelos de cama elástica
+              para
               deixar sua festa mais divertida.
             </p>
           </div>
@@ -69,7 +107,8 @@
         <div class="card nav-c contato" style="margin: 50px auto !important; width: 15rem;">
           <img src="img/inflavel.jpg" class="card-img-top" alt="Pula-pula Inflável">
           <div class="card-body">
-            <p class="card-text h6">Aqui na <span class="name">De Pétry</span> você pode encontrar pula-pula infláveis de diferentes
+            <p class="card-text h6">Aqui na <span class="name">De Pétry</span> você pode encontrar pula-pula infláveis
+              de diferentes
               tamanhos e cores!
             </p>
           </div>
@@ -96,9 +135,9 @@
         </div>
       </div>
     </div>
-
-
   </div>
+
+    <br><br>
   <div class="mt-4"></div>
   <footer class="clearfix footer fixed-bottom text-center">
 
@@ -108,11 +147,18 @@
       <i class='fab fa-instagram social'></i></a>
     <a target="_blank" href="https://api.whatsapp.com/send?phone=5547988124488&fbclid=">
       <i class='fab fa-whatsapp social'></i></a>
-    <a target="_blank" href="https://www.google.com/maps/place/R.+Padre+Ant%C3%B4nio+Dias,+367+-+Centro,+Cambori%C3%BA+-+SC,+88340-000/@-27.0284732,-48.6540626,17z/data=!3m1!4b1!4m5!3m4!1s0x94d8b43330474993:0x6eb0196aac54e813!8m2!3d-27.0284732!4d-48.6518739">
-      <i class="fas fa-map-marker-alt social"></i></a> 
+    <a target="_blank"
+      href="https://www.google.com/maps/place/R.+Padre+Ant%C3%B4nio+Dias,+367+-+Centro,+Cambori%C3%BA+-+SC,+88340-000/@-27.0284732,-48.6540626,17z/data=!3m1!4b1!4m5!3m4!1s0x94d8b43330474993:0x6eb0196aac54e813!8m2!3d-27.0284732!4d-48.6518739">
+      <i class="fas fa-map-marker-alt social"></i></a>
 
     <div class="text-center">&copy; Copyright 2019 De Pétry Brinquedos</div>
   </footer>
+
+  <script>
+    $('#bs4-vertical-slide-carousel').carousel({
+      interval: 2000
+    })
+    </script>
 </body>
 
 </html>

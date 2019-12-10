@@ -48,7 +48,8 @@ margin: 8px 5px 0px 5px ;
     .w-50{width: 100% !important;
     margin: 10px 0 !important;}
     .img-logo{left:0;}
-    .contato{ width: 300px !important;}
+    .contato{ width: 300px !important;
+    margin: auto !important;}
   }
 
 .home{color: black !important;}
@@ -66,8 +67,9 @@ font-size: 25px;
 font-family: 'Righteous', cursive;
 }
 
-.contato{border:4px #1686CC dashed;
+.contato{border:4px #1686CC dashed; 
 }
+
 
 
 

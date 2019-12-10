@@ -72,9 +72,38 @@ font-family: 'Righteous', cursive;
 .contato{border:4px #1686CC dashed; 
 }
 
-.name{color: #FF0303;}
+.name{color: #FF0303 !important;}
 
+.bs-vertical-slider .carousel-item-next.carousel-item-left,
+.bs-vertical-slider .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
 
+.bs-vertical-slider .carousel-item-next,
+.bs-vertical-slider .active.carousel-item-right {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100% 0);
+}
 
+.bs-vertical-slider .carousel-item-prev,
+.bs-vertical-slider .active.carousel-item-left {
+-webkit-transform: translate3d(0,-100%, 0);
+        transform: translate3d(0,-100%, 0);
+}
 
+.btn-lg{background-color: #1686CC !important;
+color: white !important;
+font-family: 'Righteous', cursive !important;
+font-size: 15px;
+border: none !important;
+}
 
+.btn-lg:hover{background-color: #FF0303 !important;
+color: #FFFC0A !important;
+}
+
+.carousel-caption{font-family: 'Righteous', cursive !important;
+background-color: white !important;
+color: #FF0303 !important;
+}

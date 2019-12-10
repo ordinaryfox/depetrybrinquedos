@@ -52,7 +52,9 @@ margin: 8px 5px 0px 5px ;
     margin: 10px 0 !important;}
     .img-logo{left:0;}
     .contato{ width: 300px !important;
-    margin: auto !important;}}
+    margin: auto !important;}
+    
+  }
     
 .home{color: black !important;}
 
@@ -69,7 +71,7 @@ font-size: 25px;
 font-family: 'Righteous', cursive;
 }
 
-.contato{border:4px #1686CC dashed; 
+.contato{border:4px #1686CC dashed !important; 
 }
 
 .name{color: #FF0303 !important;}
@@ -104,6 +106,8 @@ color: #FFFC0A !important;
 }
 
 .carousel-caption{font-family: 'Righteous', cursive !important;
-background-color: white !important;
+background-color: rgb(255, 255, 255, 0.7) !important;
 color: #FF0303 !important;
 }
+
+

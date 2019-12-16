@@ -1,16 +1,7 @@
 .logo{width: 100px ;
 height: 80px;}
 
-.img-logo{position: absolute;
-z-index: -3;
-left: 25%;
-opacity: 0.7;
-filter: alpha(opacity=50);}
-
-.img-balao1{position: absolute;
-z-index: 1;
-left: 92%;
-top: 25px;
+.ballon{background-image:url(img/ballon4.png);
 }
 
 h1{background-color: #FF0303 !important;
@@ -59,9 +50,7 @@ margin: 8px 5px 0px 5px ;
     .img-logo{left:0;}
     .contato{ width: 300px !important;
     margin: auto !important;}
-    .img-balao1{
-            height:0;               
-            width: 0;} 
+   .ballon{width: auto !important;}
 }
     
 .home{color: black !important;}
@@ -123,3 +112,6 @@ li{background-color:#1686CC !important;}
 .slide{border-radius: 15px !important;}
 
 .font{font-family: 'Righteous', cursive !important;}
+
+.topo{background-color: white;
+border-radius: 5px;}

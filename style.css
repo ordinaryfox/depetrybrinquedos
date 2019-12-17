@@ -51,6 +51,7 @@ margin: 8px 5px 0px 5px ;
     .contato{ width: 300px !important;
     margin: auto !important;}
    .ballon{width: auto !important;}
+   iframe{width: 100% !important}
 }
     
 .home{color: black !important;}
@@ -115,3 +116,5 @@ li{background-color:#1686CC !important;}
 
 .topo{background-color: white;
 border-radius: 5px;}
+
+.map{border: #1686CC 5px solid !important;}

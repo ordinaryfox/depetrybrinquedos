@@ -53,6 +53,14 @@ margin: 8px 5px 0px 5px ;
    .ballon{width: auto !important;}
    iframe{width: 100% !important}
 }
+
+@media only screen and (max-width: 768px) and (min-width:576px){
+        .card{width: auto !important;
+        height: 300px !important; }
+
+        .btn-primary{font-size: 14px !important;}
+}
+
     
 .home{color: black !important;}
 
@@ -117,4 +125,5 @@ li{background-color:#1686CC !important;}
 .topo{background-color: white;
 border-radius: 5px;}
 
-.map{border: #1686CC 5px solid !important;}
+.map{border: #1686CC 5px solid !important;
+border-radius: 15px}
